@@ -1,0 +1,164 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.header {
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+body {
+  background-image: url("pics/weather_gif.gif");
+  background-size: 1500px 720px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* input text box */
+input[type="text"] {
+  outline: none;
+  background-color: rgb(221, 224, 205);
+  color: black;
+  padding: 14px 32px;
+  font-size: 18px;
+  border: 2px solid #225e92;
+  border-radius: 10px;
+}
+button {
+  outline: none;
+  color: #0583f2;
+  font-size: small;
+  padding: 8px 8px;
+  border-radius: 10px;
+}
+
+#center {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+#table_city {
+  display: none;
+}
+
+.city-details {
+  margin-top: 130px;
+  margin-left: 120px;
+}
+
+.table_data {
+  margin-top: 100px;
+  width: fit-content;
+  background-color: "#0583F2";
+  margin: 0 auto;
+}
+
+#default {
+  display: none;
+  margin-top: 180px;
+  color: black;
+}
+
+/* invalid result */
+#invalid {
+  font-size: 30px;
+  display: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the search field */
+form.example input[type="text"] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196f3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* table data  */
+th {
+  color: darkgoldenrod;
+  font-weight: bold;
+  padding: 10px;
+  font-size: x-large;
+}
+td {
+  padding: 18px;
+  color: wheat;
+  font-size: 20px;
+}
+tr:nth-child(even) {
+  color: antiquewhite;
+}
+tr:nth-child(odd) {
+  color: azure;
+}
+/* heading and paragraphs */
+h1 {
+  margin: 220px;
+  margin-left: 50px;
+  color: wheat;
+}
+p {
+  color: gold;
+  font-size: xx-large;
+}
+
+/* for icons colors and size */
+.fa-city {
+  color: darkslategrey;
+  font-size: 20px;
+}
+.fa-temperature-low {
+  color: darkorange;
+  font-size: 20px;
+}
+.fa-cloud-sun {
+  color: skyblue;
+  font-size: 20px;
+}
+.fa-smog {
+  color: whitesmoke;
+  font-size: 20px;
+}
+.fa-wind {
+  color: darksalmon;
+  font-size: 20px;
+}
+.fa-wpressr {
+  color: rgb(39, 20, 20);
+  font-size: 20px;
+}
+
+.fa-times {
+  color: red;
+  font-size: 100px;
+}
