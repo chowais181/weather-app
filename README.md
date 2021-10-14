@@ -3,7 +3,7 @@
 ### View 
  ![project Display](https://github.com/chowais181/weather-app/blob/master/pics/view1.png)
  
- 
+ ![project Display](https://github.com/chowais181/weather-app/blob/master/pics/view2.png)
 
 
 ### API Using Ajax
